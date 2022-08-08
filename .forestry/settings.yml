@@ -18,6 +18,15 @@ sections:
 - type: document
   path: data/settings.json
   label: Menu
+- type: heading
+  label: AWS
+- type: directory
+  path: framework
+  label: Framework
+  create: all
+  match: "**/*"
+  templates:
+  - documentation-page
 upload_dir: static
 public_path: ''
 front_matter_path: ''
